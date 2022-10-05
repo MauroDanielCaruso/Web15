@@ -3,12 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Sofia &nbsp;Te invita a su fiesta de 15!</title>
+    <title>Sofia&nbsp;Te invita a su fiesta de 15!</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="js/jquery.countdown.js"></script>
     <link href="style-invit.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Quicksand:700" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
@@ -58,14 +55,6 @@
                         class="material-icons">edit_calendar</span> Agendalo!</a></div>
             <div id="getting-started" style="font-size:30px!important; width:230px; text-align:center; margin:auto;">
             </div>
-            <script type="text/javascript">
-                $("#getting-started")
-                    .countdown("2022-11-05 20:00:00", function (event) {
-                        $(this).text(
-                            event.strftime('Faltan %D días %H:%M:%S ')
-                        );
-                    });
-            </script>
             <br>
             <hr class="estilo">
             <br>
@@ -114,6 +103,16 @@
                 href="https://www.linkedin.com/in/maurodcaruso/" target="_blank"> Mauro Caruso</a>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.countdown.js"></script>
+    <script type="text/javascript">
+        $("#getting-started")
+            .countdown("2022-11-05 20:00:00", function (event) {
+                $(this).text(
+                    event.strftime('Faltan %D días %H:%M:%S ')
+                );
+            });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
         $(function () {
@@ -131,11 +130,6 @@
                 }
             });
         });
-    </script>
-    <script type='text/javascript'>
-        document.oncontextmenu = function () { return false };
-
-        $(".tnombre").hide().fadeIn(2000);
     </script>
     </div>
 </body>
