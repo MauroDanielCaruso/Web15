@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
+	color: #454649;
+	font-weight: 300;
+	text-align: center;
+}
+
+.cont {
+	width: 450px;
+	margin: 0 auto;
+	background: url(https://i.postimg.cc/vBYc0DVv/bg.webp);
+}
+
+h1.name {
+	margin-top: -26px;
+}
+
+.foto p {
+	text-shadow: #000 0px 0px 5px, #000 0px 0px 10px, #000 0px 0px 15px;
+}
+
+.foto {
+	padding: 30px 0px 0 0px !important;
+}
+
+.foto {
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 10px 0 10px;
+	background-position: center top;
+}
+
+.block {
+	padding: 25px 25px 1px 25px;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.logo {
+	width: 400px;
+	height: 188px;
+	margin-top: -110px;
+	margin-bottom: 20px;
+	/*border:solid 8px #ffd83b;*/
+	overflow: hidden;
+	font-family: 'Clicker Script', cursive;
+	font-size: 100px;
+
+}
+
+.logo a {
+
+
+	color: #a34991 !important;
+
+}
+
+.logo img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+.negrita {
+	font-weight: 500;
+}
+
+.boton {
+	text-align: center;
+	padding: 15px;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+/*index*/
+body {
+	background-color: #eeeeee;
+	/* background: url(https://the-wedding-day.vamtam.com/wp-content/uploads/2013/10/bg1.png) repeat center top fixed; */
+	background-size: auto
+}
+
+.fondo-1 {
+
+	/* background-color: rgb(237, 102, 255) */
+	color: #a34991;
+}
+
+.fondo-2 {
+	/* background-color: rgb(237, 102, 255) */
+	color: #a34991;
+
+}
+
+.fondo-2 p {
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+
+.fondo-3 {
+	/* background-color: rgb(237, 102, 255); */
+	color: #a34991;
+}
+
+.fondo-3 p {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	/* letter-spacing: 10px; */
+}
+
+.txt {
+	color: #000000;
+}
+
+.teInvita {
+	color: #a34991;
+}
+
+.teInvita p {
+	font-size: 35px;
+}
+
+.btn {
+	background-color: #a34991 !important;
+}
+
+.boton .btn {
+	color: #ffffff !important;
+}
+
+
+.pie img {
+	vertical-align: text-top;
+}
+
+.pie {
+	background-color: #a34991;
+	color: #ccc;
+	padding: 25px;
+	font-size: 14px;
+}
+
+.pie a {
+	color: #ccc;
+}
+
+.pie strong {
+	text-transform: uppercase;
+}
+
+.map {
+	height: 320px;
+	overflow: hidden;
+	border: solid 3px #a34991;
+	margin-bottom: 25px;
+}
+
+
+
+body,
+.contactara {
+	color: #000000;
+}
+
+/* Large rounded green border */
+hr.estilo {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(163, 73, 145, 0), rgba(163, 73, 145, 0.75), rgba(163, 73, 145, 0));
+}
+
+.material-icons {
+	text-align: center;
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	vertical-align: text-top;
+	/* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+/*round*/
+.logo,
+.boton,
+.map {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+@media screen and (max-width: 940px) {
+	.home #main .cont {
+		width: 100%;
+	}
+
+	.form-center {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.login {
+		padding: 10%;
+		width: 100%;
+	}
+
+	input[type="submit"].guardar {
+		width: 100%;
+	}
+
+	.expand label>input+img {
+		width: 23%;
+	}
+
+	.cont.index table.KT_tngtable img {
+		max-width: 50px;
+	}
+
+	.login input,
+	.login label {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.expand label>input+img {
+		width: 48%;
+	}
+
+	.cont.index table.KT_tngtable img {
+		max-width: 40px;
+	}
+
+	.cont.index input.button_big {
+		min-width: 40px;
+	}
+
+	.cont.index .KT_tngtable label {
+		display: block;
+	}
+
+	.cont.index .KT_tngtable select,
+	.cont.index .KT_tngtable input[type="submit"] {
+		width: 30.5%;
+		margin: 2px 1%;
+	}
+
+	.cont.index .KT_tngtable select {
+		font-size: 14px;
+	}
+
+	.realiz {
+		font-size: 20px;
+	}
+
+	.edit a {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.expand label>input+img {
+		width: 100%;
+	}
+
+	.realiz {
+		/*display:block;*/
+		width: 97%;
+		margin: 10px 0;
+	}
+
+	.cr-boundary {
+		width: 430px;
+		height: 430px;
+	}
+}
+
+
+@media screen and (max-width: 460px) {
+	.cr-boundary {
+		width: 410px;
+		height: 410px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+	.cont {
+		width: 100%;
+	}
+
+	.logo {
+		width: 100%;
+		height: auto;
+	}
+
+	h1.name {
+		font-size: 48px;
+		line-height: 1;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.cont {
+		width: 100%;
+	}
+
+	.logo {
+		width: 100%;
+		height: auto;
+	}
+
+	h1.name {
+		font-size: 48px;
+		line-height: 1;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	.cont {
+		width: 100%;
+	}
+
+	.logo {
+		width: 100%;
+		height: auto;
+	}
+
+	h1.name {
+		font-size: 48px;
+		line-height: 1;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.cont {
+		width: 100%;
+	}
+
+	.logo {
+		width: 100%;
+		height: auto;
+	}
+
+	h1.name {
+		font-size: 48px;
+		line-height: 1;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.cont {
+		width: 100%;
+	}
+
+	.logo {
+		width: 100%;
+		height: auto;
+	}
+
+	h1.name {
+		font-size: 48px;
+		line-height: 1;
+	}
+}
